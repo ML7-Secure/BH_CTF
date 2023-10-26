@@ -1,0 +1,20 @@
+CR4_NFZ : https://github.com/jglim/UnlockECU/blob/main/UnlockECU/UnlockECU/Security/PowertrainSecurityAlgoNFZ.cs
+
+CR6NFZ : https://github.com/jglim/UnlockECU/blob/main/UnlockECU/UnlockECU/Security/PowertrainSecurityAlgo2.cs
+
+CRD3 : https://github.com/jglim/UnlockECU/blob/main/UnlockECU/UnlockECU/Security/PowertrainSecurityAlgo3.cs
+
+
+DTR222 : https://github.com/jglim/UnlockECU/blob/main/UnlockECU/UnlockECU/Security/RVC222_MPC222_FCW246_LRR3.cs
+FCW222 :                                                =
+LRR205 :                                                =
+RVC204 :                                                =
+RVC213 :                                                =
+SVS204 :                                                =
+Same algo but not the same params for all !!!!
+
+
+
+RDU_222 : https://github.com/jglim/UnlockECU/blob/main/UnlockECU/UnlockECU/Security/RDU222.cs (NO)
+
+RBTMFL213 : https://github.com/jglim/UnlockECU/blob/main/UnlockECU/UnlockECU/Security/RBTM.cs (NO)

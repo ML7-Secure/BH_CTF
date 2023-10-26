@@ -1,0 +1,24 @@
+We create an account with register
+
+We login
+
+We target the settings/change_password function
+
+By inspecting the source, we see that there is a parameter 'session' that is a fixed value (== base64 encoding of the user) that is sent when modifying password (WE VERIFY THIS WITH BURP)
+
+"""
+<form action="chpasswd.php" method="POST">
+                                                <label for="curpass">Current password:</label>
+                                                <input type="password" name="c_pass" id="c_pass" required>
+                                                <label for="password">New password:</label>
+                                                <input type="password" name="n_pass" id="n_pass" required>
+                                                <input type="hidden" name="session" value="YWRtaW4=">       <----------------------- VULNERABILITY 
+                                                <button type="submit">roll the dice</button>
+                                        </form>
+"""
+
+The IDOR vulnerability is the following :
+
+- Request change password (put any password) with the user account BUT put the base64 encoding of 'admin' (==YWRtaW4) in the session parameter with BURP ==> IDOR triggered, we just changed the password of the admin user (full takeover)
+
+- Log in with admin:admin => flag in /settings 

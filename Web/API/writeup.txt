@@ -1,0 +1,23 @@
+Here we exploit JWTs
+
+The problem is that they use HS256 algorithm and devs use a (weak) password as the key...
+
+Here we use hashcat to find the password from a valid token that we get from creating a valid user account : 
+
+hashcat -m 16500 -a 0 myjxt.txt /usr/share/wordlists/rockyou.txt =============> password == 'princess'
+                      ^^^^^^^^^
+                     valid token
+                     
+With the password we can forge any token now 
+
+We use **jwt.io** to forge a valid token with the algorith 'HS256', the password 'princess and the username 'admin' 
+
+As the token is valid, only the username is checked, other data like passwords etc are not checked
+
+By supplying to /protected the forged token for username=admin, we get the flag
+
+We could also python use jwt_tool to edit a valid token :
+
+python3 jwt_tool.py -T <VALID_TOKEN> -S hs256 -p princess
+                                                 ^^^^^^^^
+                                                 password

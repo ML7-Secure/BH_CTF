@@ -1,0 +1,3 @@
+https://0x00sec.org/t/reverse-engineering-101/1233
+
+https://www.synacktiv.com/publications/fic2020-prequals-ctf-write-up

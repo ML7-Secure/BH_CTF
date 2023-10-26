@@ -1,0 +1,7 @@
+import subprocess
+def factorDB(N):
+    out = subprocess.run(['factordb', str(N)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    return out.stdout.decode()
+
+N = 
+factorDB(N)

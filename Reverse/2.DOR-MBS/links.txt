@@ -1,0 +1,59 @@
+https://github.com/VoidHack/write-ups/blob/master/Square%20CTF%202017/reverse/floppy/README.md
+
+https://anee.me/defcon-1-csaw-ctf-2017-finals-dd4ea3785a91
+
+
+
+--------------------------------------------------------------------------------------
+
+https://inesmartins.github.io/opoleaks-underground-leaks-part-iii/index.html
+
+https://teamrocketist.github.io/2019/04/06/Reverse-Midnightsun-CTF-2019-Hfs-mbr/
+
+https://ctftime.org/writeup/31391
+
+https://daniao.ws/ctfs/midnight-sun-quals-19/hfs-mbr/2019-04-08-hfs-mbr
+
+https://ctftime.org/writeup/11865
+
+https://scavengersecurity.com/posts/omh-grub/
+
+https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/partitions-file-systems-carving <=================
+
+https://thestarman.pcministry.com/asm/mbr/PartTables.htm <=================
+
+https://www.synacktiv.com/publications/fic2020-prequals-ctf-write-up
+
+https://dfir.science/2022/05/Linux-Forensics-on-Linux-Cyber5W-CTF-Walkthrough <=================
+
+https://jarijaas.github.io/posts/disobey-2020/ 
+
+https://www.youtube.com/watch?v=jRj_HzbHeWU
+
+
+https://github.com/krx/CTF-Writeups/blob/master/CSAW%2016%20Quals/for100%20-%20Clams%20Dont%20Dance/README.md
+
+https://www.securitynik.com/2020/11/beginning-file-system-forensics.html
+
+
+https://medium.com/@sebnemK/usb-drive-forensic-analysis-with-kali-linux-57d0ef475c9b
+
+
+------------------
+
+https://www.simplified.guide/linux/mbr-restore
+
+https://prefetch.net/blog/2006/09/09/digging-through-the-mbr/ <=================<=================<=================<================= !!!!!!!!!!!!!!!!!!!! *************************
+
+https://ubuntuforums.org/showthread.php?t=1704157
+
+https://github.com/topics/boot-sector && https://github.com/alexfru/MBiRa
+
+https://www.pagetable.com/?p=165
+
+https://doc.ubuntu-fr.org/boot-repair
+
+
+
+
+

@@ -1,0 +1,43 @@
+"KillChain" : 
+
+- Find 0x27 Level 1 algorithm
+- Authenticate to SecAccess (0x27) with found algorithm and key
+
+- Read memory with the given rights (after 0x27 auth)
+- Dump memory using 0x23
+
+- Reverse code using Ghidra => https://www.youtube.com/watch?v=cG4O8_nueUY
+- Search for 0x27 function -> Search for error core 0x35 'invalid key' which is specific to service 0x27
+
+- Find algorithm for 0x27 Level 3 (and Level 5)
+- Re-implement algorithm and gain access Level 3 (same for Level 5)
+
+- If enough, inject malicious code by Writing Memory By Address (service 0x3D)
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------
+
+- 0x22 : ReadDataByID
+
+- 0x11 : ECU Reset
+
+- 0x19 : Read DTC
+
+- 0x23 : ReadMemByAddr
+
+- 0x27 : SecurityAccess
+
+- 0x3E : TesterPresent
+
+- 0x10 : SessionControl
+
+- 0x31 : RoutineControl
